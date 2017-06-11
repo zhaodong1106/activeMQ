@@ -2,8 +2,11 @@ package com.zhao.activeMQ;
 
 
 
+import java.io.Serializable;
+
 import javax.jms.Destination;
 import javax.jms.JMSException;
+import javax.jms.ObjectMessage;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 
@@ -14,6 +17,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Productor{
  private JmsTemplate jmsTemplate;
+ 
  public void sendMessage(Destination destination,final String str){
 	 System.out.println("向队列" + destination.toString() + "发送了消息------------" + str);
 	 jmsTemplate.send(destination,new MessageCreator(){
@@ -21,6 +25,19 @@ public class Productor{
 			 return session.createTextMessage(str);
 		 }
 	 });
+ }
+ 
+ public void sendObjectMesssage(Destination destination,final User user){
+	 System.out.println("---------------开始发送object消息-----------------");
+	 jmsTemplate.send(destination, new MessageCreator(){
+		
+	 
+
+		@Override
+		public ObjectMessage createMessage(Session session) throws JMSException {
+			// TODO Auto-generated method stub
+			return session.createObjectMessage((Serializable) user);
+		}});
  }
  public JmsTemplate getJmsTemplate() {  
      return jmsTemplate;  

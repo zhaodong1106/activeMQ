@@ -38,8 +38,9 @@
     <!-- 定义消息队列（Queue） -->
     <bean id="destination2" class="org.apache.activemq.command.ActiveMQQueue">
         <!-- 设置消息队列的名字 -->
-       <constructor-arg value="gzframe.demo-two" />
-        
+        <constructor-arg>
+            <value>gzframe.demo-two</value>
+        </constructor-arg>
     </bean>
     
     <!-- 配置JMS模板（Queue），Spring提供的JMS工具类，它发送、接收消息。 -->
@@ -47,6 +48,7 @@
         <property name="connectionFactory" ref="connectionFactory" />
      	<property name="defaultDestinationName" value="destination2" /> 
     </bean>
+    
     <!-- 消息监听器 -->  
     <bean id="consumerMessageListener" class="com.zhao.activeMQ.Customer1"/>  
    <!-- 消息监听容器 -->  
@@ -55,6 +57,13 @@
         <property name="destination" ref="destination" />  
         <property name="messageListener" ref="consumerMessageListener" />  
     </bean>  
-   
+    <!-- 消息监听器 -->  
+    <bean id="consumerMessageListener2" class="com.zhao.activeMQ.Customer2"/>  
+   <!-- 消息监听容器 -->  
+    <bean id="jmsContainer2"        class="org.springframework.jms.listener.DefaultMessageListenerContainer">  
+        <property name="connectionFactory" ref="connectionFactory" />  
+        <property name="destination" ref="destination2" />  
+        <property name="messageListener" ref="consumerMessageListener2" />  
+    </bean>  
  </beans>
 
