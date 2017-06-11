@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans    
+           http://www.springframework.org/schema/beans/spring-beans-3.2.xsd    
+           http://www.springframework.org/schema/aop     
+           http://www.springframework.org/schema/aop/spring-aop-3.2.xsd    
+           http://www.springframework.org/schema/tx    
+           http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+              
+           http://www.springframework.org/schema/context    
+           http://www.springframework.org/schema/context/spring-context-3.2.xsd"  
+    default-autowire="byName" default-lazy-init="false">  
+    
+      <context:component-scan base-package="com.zhao.activeMQ" />  
+  <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供 -->  
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">  
+        <!-- ActiveMQ服务地址 -->  
+        <property name="brokerURL" value="tcp://127.0.0.1:61616" />  
+         
+    </bean>  
+    
+    <!-- 定义消息队列（Queue） -->
+    <bean id="destination" class="org.apache.activemq.command.ActiveMQQueue">
+        <!-- 设置消息队列的名字 -->
+        <constructor-arg>
+            <value>gzframe.demo</value>
+        </constructor-arg>
+    </bean>
+    <!-- 定义消息队列（Queue） -->
+    <bean id="destination2" class="org.apache.activemq.command.ActiveMQQueue">
+        <!-- 设置消息队列的名字 -->
+        <constructor-arg>
+            <value>gzframe.demo-two</value>
+        </constructor-arg>
+    </bean>
+    
+    <!-- 配置JMS模板（Queue），Spring提供的JMS工具类，它发送、接收消息。 -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory" />
+     
+    </bean>
+   
+   
+ </beans>
+

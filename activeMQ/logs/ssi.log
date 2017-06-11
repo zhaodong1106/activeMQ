@@ -1,0 +1,714 @@
+[2017-06-11 11:24:18,113] [main] DEBUG - SpringJUnit4ClassRunner constructor called with [class com.zhao.activeMQ.TestActiveMQ].
+[2017-06-11 11:24:18,129] [main] TRACE - Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(initializers=[], classes=[], locations=[classpath:application.xml], loader=interface org.springframework.test.context.ContextLoader, name=, value=[], inheritLocations=true, inheritInitializers=true)] for declaring class [com.lin.baseTest.SpringTestCase].
+[2017-06-11 11:24:18,129] [main] TRACE - Resolved context configuration attributes: [ContextConfigurationAttributes@323c28ab declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:24:18,129] [main] TRACE - Processing ContextLoader for context configuration attributes [ContextConfigurationAttributes@323c28ab declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:24:18,129] [main] TRACE - Using default ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,145] [main] TRACE - Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@323c28ab declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:24:18,160] [main] DEBUG - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@323c28ab declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2017-06-11 11:24:18,160] [main] TRACE - Processing context initializers for context configuration attributes [ContextConfigurationAttributes@323c28ab declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:24:18,160] [main] DEBUG - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,160] [main] TRACE - Retrieved @TestExecutionListeners [@org.springframework.test.context.TestExecutionListeners(listeners=[], inheritListeners=true, value=[class org.springframework.test.context.support.DependencyInjectionTestExecutionListener, class org.springframework.test.context.support.DirtiesContextTestExecutionListener])] for declaring class [class org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests].
+[2017-06-11 11:24:18,160] [main] TRACE - Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@562e5771
+[2017-06-11 11:24:18,160] [main] TRACE - Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c6ee7ea
+[2017-06-11 11:24:18,160] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,160] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,160] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,160] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,176] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,176] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,176] [main] TRACE - beforeTestClass(): class [class com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,176] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,176] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,191] [main] TRACE - prepareTestInstance(): instance [com.zhao.activeMQ.TestActiveMQ@9da63c3]
+[2017-06-11 11:24:18,191] [main] DEBUG - Performing dependency injection for test context [[TestContext@60cb9c42 testClass = TestActiveMQ, testInstance = com.zhao.activeMQ.TestActiveMQ@9da63c3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+[2017-06-11 11:24:18,191] [main] DEBUG - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2017-06-11 11:24:18,191] [main] DEBUG - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2017-06-11 11:24:18,301] [main] DEBUG - Initializing new StandardEnvironment
+[2017-06-11 11:24:18,301] [main] DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+[2017-06-11 11:24:18,301] [main] DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2017-06-11 11:24:18,301] [main] DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2017-06-11 11:24:18,316] [main] INFO - Loading XML bean definitions from class path resource [application.xml]
+[2017-06-11 11:24:18,347] [main] DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2017-06-11 11:24:18,394] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd]
+[2017-06-11 11:24:18,394] [main] DEBUG - Loading schema mappings from [META-INF/spring.schemas]
+[2017-06-11 11:24:18,394] [main] DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.0.xsd=activemq.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.7.0.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.1.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://activemq.apache.org/schema/core=activemq.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.6.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.2.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.0.0.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://camel.apache.org/schema/spring/camel-spring.xsd=camel-spring.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.2.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.1.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://activemq.org/config/1.0=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.11.1.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://activemq.org/config/1.0/1.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.1.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.2.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.11.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.0.xsd=activemq.xsd, http://camel.apache.org/schema/osgi/camel-osgi.xsd=camel-osgi.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.1.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.2.0.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd}
+[2017-06-11 11:24:18,394] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2017-06-11 11:24:18,465] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.2.xsd]
+[2017-06-11 11:24:18,465] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2017-06-11 11:24:18,480] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd]
+[2017-06-11 11:24:18,480] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2017-06-11 11:24:18,496] [main] DEBUG - Loading bean definitions
+[2017-06-11 11:24:18,511] [main] DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://activemq.apache.org/schema/core=org.apache.xbean.spring.context.v2.XBeanNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2017-06-11 11:24:18,558] [main] DEBUG - Looking for matching resources in directory tree [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ]
+[2017-06-11 11:24:18,558] [main] DEBUG - Searching directory [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ] for files matching pattern [C:/Users/123/Workspaces/MyEclipse 10/activeMQ/target/test-classes/com/zhao/activeMQ/**/*.class]
+[2017-06-11 11:24:18,558] [main] DEBUG - Looking for matching resources in directory tree [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ]
+[2017-06-11 11:24:18,558] [main] DEBUG - Searching directory [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ] for files matching pattern [C:/Users/123/Workspaces/MyEclipse 10/activeMQ/target/classes/com/zhao/activeMQ/**/*.class]
+[2017-06-11 11:24:18,558] [main] DEBUG - Resolved location pattern [classpath*:com/zhao/activeMQ/**/*.class] to resources [file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]]
+[2017-06-11 11:24:18,558] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class]
+[2017-06-11 11:24:18,589] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]
+[2017-06-11 11:24:18,589] [main] DEBUG - Identified candidate component class: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]
+[2017-06-11 11:24:18,621] [main] DEBUG - Loaded 10 bean definitions from location pattern [classpath:application.xml]
+[2017-06-11 11:24:18,621] [main] INFO - Refreshing org.springframework.context.support.GenericApplicationContext@641ab54a: startup date [Sun Jun 11 11:24:18 CST 2017]; root of context hierarchy
+[2017-06-11 11:24:18,621] [main] DEBUG - Bean factory for org.springframework.context.support.GenericApplicationContext@641ab54a: org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate]; root of factory hierarchy
+[2017-06-11 11:24:18,652] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:24:18,652] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:24:18,667] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,667] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,714] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,714] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,714] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:24:18,714] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,714] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:24:18,730] [main] DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@440a466a]
+[2017-06-11 11:24:18,730] [main] DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6524f39a]
+[2017-06-11 11:24:18,730] [main] INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2017-06-11 11:24:18,730] [main] DEBUG - Creating shared instance of singleton bean 'productor'
+[2017-06-11 11:24:18,730] [main] DEBUG - Creating instance of bean 'productor'
+[2017-06-11 11:24:18,730] [main] DEBUG - Eagerly caching bean 'productor' to allow for resolving potential circular references
+[2017-06-11 11:24:18,730] [main] TRACE - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+[2017-06-11 11:24:18,730] [main] TRACE - Getting BeanInfo for class [com.zhao.activeMQ.Productor]
+[2017-06-11 11:24:18,745] [main] TRACE - Caching PropertyDescriptors for class [com.zhao.activeMQ.Productor]
+[2017-06-11 11:24:18,745] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,745] [main] TRACE - Found bean property 'jmsTemplate' of type [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:24:18,745] [main] DEBUG - Creating shared instance of singleton bean 'jmsTemplate'
+[2017-06-11 11:24:18,745] [main] DEBUG - Creating instance of bean 'jmsTemplate'
+[2017-06-11 11:24:18,761] [main] DEBUG - Eagerly caching bean 'jmsTemplate' to allow for resolving potential circular references
+[2017-06-11 11:24:18,761] [main] TRACE - Getting BeanInfo for class [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:24:18,792] [main] TRACE - Caching PropertyDescriptors for class [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'connectionFactory' of type [javax.jms.ConnectionFactory]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'defaultDestination' of type [javax.jms.Destination]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'defaultDestinationName' of type [java.lang.String]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'deliveryMode' of type [int]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'deliveryPersistent' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'destinationResolver' of type [org.springframework.jms.support.destination.DestinationResolver]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'explicitQosEnabled' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'messageConverter' of type [org.springframework.jms.support.converter.MessageConverter]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'messageIdEnabled' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'messageTimestampEnabled' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'priority' of type [int]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'pubSubDomain' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'pubSubNoLocal' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'receiveTimeout' of type [long]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'sessionAcknowledgeMode' of type [int]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'sessionAcknowledgeModeName' of type [java.lang.String]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'sessionTransacted' of type [boolean]
+[2017-06-11 11:24:18,792] [main] TRACE - Found bean property 'timeToLive' of type [long]
+[2017-06-11 11:24:18,792] [main] TRACE - Not autowiring property 'defaultDestination' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:24:18,792] [main] TRACE - Not autowiring property 'destinationResolver' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:24:18,792] [main] TRACE - Not autowiring property 'messageConverter' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:24:18,808] [main] DEBUG - Creating shared instance of singleton bean 'connectionFactory'
+[2017-06-11 11:24:18,808] [main] DEBUG - Creating instance of bean 'connectionFactory'
+[2017-06-11 11:24:18,808] [main] DEBUG - Eagerly caching bean 'connectionFactory' to allow for resolving potential circular references
+[2017-06-11 11:24:18,808] [main] TRACE - Getting BeanInfo for class [org.springframework.jms.connection.SingleConnectionFactory]
+[2017-06-11 11:24:18,823] [main] TRACE - Caching PropertyDescriptors for class [org.springframework.jms.connection.SingleConnectionFactory]
+[2017-06-11 11:24:18,823] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,823] [main] TRACE - Found bean property 'clientId' of type [java.lang.String]
+[2017-06-11 11:24:18,823] [main] TRACE - Found bean property 'exceptionListener' of type [javax.jms.ExceptionListener]
+[2017-06-11 11:24:18,823] [main] TRACE - Found bean property 'reconnectOnException' of type [boolean]
+[2017-06-11 11:24:18,823] [main] TRACE - Found bean property 'targetConnectionFactory' of type [javax.jms.ConnectionFactory]
+[2017-06-11 11:24:18,823] [main] TRACE - Not autowiring property 'exceptionListener' of bean 'connectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,823] [main] DEBUG - Creating shared instance of singleton bean 'targetConnectionFactory'
+[2017-06-11 11:24:18,823] [main] DEBUG - Creating instance of bean 'targetConnectionFactory'
+[2017-06-11 11:24:18,855] [main] DEBUG - Eagerly caching bean 'targetConnectionFactory' to allow for resolving potential circular references
+[2017-06-11 11:24:18,855] [main] TRACE - Getting BeanInfo for class [org.apache.activemq.ActiveMQConnectionFactory]
+[2017-06-11 11:24:18,870] [main] TRACE - Caching PropertyDescriptors for class [org.apache.activemq.ActiveMQConnectionFactory]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'alwaysSessionAsync' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'alwaysSyncSend' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'auditDepth' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'auditMaximumProducerNumber' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'blobTransferPolicy' of type [org.apache.activemq.blob.BlobTransferPolicy]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'brokerURL' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'checkForDuplicates' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'clientID' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'clientIDPrefix' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'clientInternalExceptionListener' of type [org.apache.activemq.ClientInternalExceptionListener]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'closeTimeout' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'connectionIDPrefix' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'consumerExpiryCheckEnabled' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'consumerFailoverRedeliveryWaitPeriod' of type [long]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'copyMessageOnSend' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'disableTimeStampsByDefault' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'dispatchAsync' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'exceptionListener' of type [javax.jms.ExceptionListener]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'exclusiveConsumer' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'maxThreadPoolSize' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'messagePrioritySupported' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'nestedMapAndListEnabled' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'nonBlockingRedelivery' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'objectMessageSerializationDefered' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'optimizeAcknowledge' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'optimizeAcknowledgeTimeOut' of type [long]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'optimizedAckScheduledAckInterval' of type [long]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'optimizedMessageDispatch' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'password' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'prefetchPolicy' of type [org.apache.activemq.ActiveMQPrefetchPolicy]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'producerWindowSize' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'properties' of type [java.util.Properties]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'redeliveryPolicy' of type [org.apache.activemq.RedeliveryPolicy]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'redeliveryPolicyMap' of type [org.apache.activemq.broker.region.policy.RedeliveryPolicyMap]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'reference' of type [javax.naming.Reference]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'rejectedTaskHandler' of type [java.util.concurrent.RejectedExecutionHandler]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'rmIdFromConnectionId' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'sendAcksAsync' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'sendTimeout' of type [int]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'sessionTaskRunner' of type [org.apache.activemq.thread.TaskRunnerFactory]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'stats' of type [org.apache.activemq.management.StatsImpl]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'statsEnabled' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'transactedIndividualAck' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'transformer' of type [org.apache.activemq.MessageTransformer]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'transportListener' of type [org.apache.activemq.transport.TransportListener]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'useAsyncSend' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'useCompression' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'useDedicatedTaskRunner' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'useRetroactiveConsumer' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'userName' of type [java.lang.String]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'warnAboutUnstartedConnectionTimeout' of type [long]
+[2017-06-11 11:24:18,870] [main] TRACE - Found bean property 'watchTopicAdvisories' of type [boolean]
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'blobTransferPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'clientInternalExceptionListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'exceptionListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'prefetchPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'properties' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'redeliveryPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'redeliveryPolicyMap' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'rejectedTaskHandler' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'sessionTaskRunner' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'transformer' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,870] [main] TRACE - Not autowiring property 'transportListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:24:18,886] [main] DEBUG - Finished creating instance of bean 'targetConnectionFactory'
+[2017-06-11 11:24:18,886] [main] DEBUG - Invoking afterPropertiesSet() on bean with name 'connectionFactory'
+[2017-06-11 11:24:18,886] [main] DEBUG - Finished creating instance of bean 'connectionFactory'
+[2017-06-11 11:24:18,886] [main] DEBUG - Invoking afterPropertiesSet() on bean with name 'jmsTemplate'
+[2017-06-11 11:24:18,886] [main] DEBUG - Finished creating instance of bean 'jmsTemplate'
+[2017-06-11 11:24:18,886] [main] DEBUG - Added autowiring by name from bean name 'productor' via property 'jmsTemplate' to bean named 'jmsTemplate'
+[2017-06-11 11:24:18,886] [main] DEBUG - Finished creating instance of bean 'productor'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'targetConnectionFactory'
+[2017-06-11 11:24:18,886] [main] DEBUG - Returning cached instance of singleton bean 'connectionFactory'
+[2017-06-11 11:24:18,886] [main] DEBUG - Creating shared instance of singleton bean 'destination'
+[2017-06-11 11:24:18,886] [main] DEBUG - Creating instance of bean 'destination'
+[2017-06-11 11:24:18,901] [main] DEBUG - Eagerly caching bean 'destination' to allow for resolving potential circular references
+[2017-06-11 11:24:18,901] [main] TRACE - Getting BeanInfo for class [org.apache.activemq.command.ActiveMQQueue]
+[2017-06-11 11:24:18,901] [main] TRACE - Caching PropertyDescriptors for class [org.apache.activemq.command.ActiveMQQueue]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'composite' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'compositeDestinations' of type [[Lorg.apache.activemq.command.ActiveMQDestination;]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'dataStructureType' of type [byte]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'destinationPaths' of type [[Ljava.lang.String;]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'destinationType' of type [byte]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'destinationTypeAsString' of type [java.lang.String]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'marshallAware' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'options' of type [java.util.Map]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'pattern' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'physicalName' of type [java.lang.String]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'properties' of type [java.util.Properties]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'qualifiedName' of type [java.lang.String]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'queue' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'queueName' of type [java.lang.String]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'reference' of type [javax.naming.Reference]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'temporary' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'topic' of type [boolean]
+[2017-06-11 11:24:18,901] [main] TRACE - Found bean property 'unresolvableDestinationTransformer' of type [org.apache.activemq.command.UnresolvedDestinationTransformer]
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'compositeDestinations' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'properties' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'unresolvableDestinationTransformer' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] DEBUG - Finished creating instance of bean 'destination'
+[2017-06-11 11:24:18,901] [main] DEBUG - Creating shared instance of singleton bean 'destination2'
+[2017-06-11 11:24:18,901] [main] DEBUG - Creating instance of bean 'destination2'
+[2017-06-11 11:24:18,901] [main] DEBUG - Eagerly caching bean 'destination2' to allow for resolving potential circular references
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'compositeDestinations' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'properties' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] TRACE - Not autowiring property 'unresolvableDestinationTransformer' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:24:18,901] [main] DEBUG - Finished creating instance of bean 'destination2'
+[2017-06-11 11:24:18,901] [main] DEBUG - Returning cached instance of singleton bean 'jmsTemplate'
+[2017-06-11 11:24:18,901] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:24:18,917] [main] DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@78a6e4e2]
+[2017-06-11 11:24:18,917] [main] DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2017-06-11 11:24:18,917] [main] TRACE - Publishing event in org.springframework.context.support.GenericApplicationContext@641ab54a: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@641ab54a: startup date [Sun Jun 11 11:24:18 CST 2017]; root of context hierarchy]
+[2017-06-11 11:24:18,917] [main] TRACE - getProperty("spring.liveBeansView.mbeanDomain", String)
+[2017-06-11 11:24:18,917] [main] DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2017-06-11 11:24:18,917] [main] DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2017-06-11 11:24:18,917] [main] TRACE - PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+[2017-06-11 11:24:18,917] [main] TRACE - PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+[2017-06-11 11:24:18,917] [main] TRACE - PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+[2017-06-11 11:24:18,917] [main] TRACE - PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+[2017-06-11 11:24:18,917] [main] DEBUG - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2017-06-11 11:24:18,917] [main] DEBUG - Storing ApplicationContext in cache under key [[MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2017-06-11 11:24:18,917] [main] TRACE - Getting BeanInfo for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,933] [main] TRACE - Caching PropertyDescriptors for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:18,933] [main] TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+[2017-06-11 11:24:18,933] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:24:18,933] [main] DEBUG - Processing injected method of bean 'com.zhao.activeMQ.TestActiveMQ': AutowiredFieldElement for private javax.jms.Destination com.zhao.activeMQ.TestActiveMQ.destination
+[2017-06-11 11:24:18,933] [main] DEBUG - Returning cached instance of singleton bean 'destination'
+[2017-06-11 11:24:18,933] [main] DEBUG - Returning cached instance of singleton bean 'destination2'
+[2017-06-11 11:24:18,933] [main] DEBUG - Autowiring by type from bean name 'com.zhao.activeMQ.TestActiveMQ' to bean named 'destination'
+[2017-06-11 11:24:18,933] [main] DEBUG - Processing injected method of bean 'com.zhao.activeMQ.TestActiveMQ': AutowiredFieldElement for private com.zhao.activeMQ.Productor com.zhao.activeMQ.TestActiveMQ.productor
+[2017-06-11 11:24:18,933] [main] DEBUG - Returning cached instance of singleton bean 'productor'
+[2017-06-11 11:24:18,933] [main] DEBUG - Autowiring by type from bean name 'com.zhao.activeMQ.TestActiveMQ' to bean named 'productor'
+[2017-06-11 11:24:18,933] [main] TRACE - beforeTestMethod(): instance [com.zhao.activeMQ.TestActiveMQ@9da63c3], method [public void com.zhao.activeMQ.TestActiveMQ.testConsumer()]
+[2017-06-11 11:24:19,011] [main] TRACE - Using port 0
+[2017-06-11 11:24:19,151] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58161] TRACE - TCP consumer thread for tcp://localhost/127.0.0.1:61616@58161 starting
+[2017-06-11 11:24:19,151] [main] DEBUG - Sending: WireFormatInfo { version=10, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, Host=localhost, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:24:19,151] [main] INFO - Established shared JMS Connection: ActiveMQConnection {id=ID:123-PC-58160-1497151459011-1:1,clientId=null,started=false}
+[2017-06-11 11:24:19,151] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58161] DEBUG - Using min of local: WireFormatInfo { version=10, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, Host=localhost, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=3, properties={CacheSize=1024, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, CacheEnabled=true, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:24:19,151] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58161] DEBUG - Received WireFormat: WireFormatInfo { version=3, properties={CacheSize=1024, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, CacheEnabled=true, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:24:19,151] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58161] DEBUG - tcp://localhost/127.0.0.1:61616@58161 before negotiation: OpenWireFormat{version=10, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+[2017-06-11 11:24:19,198] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58161] DEBUG - tcp://localhost/127.0.0.1:61616@58161 after negotiation: OpenWireFormat{version=3, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+[2017-06-11 11:24:19,229] [main] DEBUG - Executing callback on JMS Session: ActiveMQSession {id=ID:123-PC-58160-1497151459011-1:1:1,started=false}
+[2017-06-11 11:24:19,245] [main] DEBUG - Sending created message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}
+[2017-06-11 11:24:19,245] [main] TRACE - ID:123-PC-58160-1497151459011-1:1:1 sending message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = ID:123-PC-58160-1497151459011-1:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:123-PC-58160-1497151459011-1:1:1:1, destination = queue://gzframe.demo, transactionId = null, expiration = 0, timestamp = 1497151459245, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}
+[2017-06-11 11:24:19,245] [main] TRACE - afterTestMethod(): instance [com.zhao.activeMQ.TestActiveMQ@9da63c3], method [public void com.zhao.activeMQ.TestActiveMQ.testConsumer()], exception [null]
+[2017-06-11 11:24:19,245] [main] DEBUG - After test method: context [[TestContext@60cb9c42 testClass = TestActiveMQ, testInstance = com.zhao.activeMQ.TestActiveMQ@9da63c3, testMethod = testConsumer@TestActiveMQ, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], class dirties context [false], class mode [null], method dirties context [false].
+[2017-06-11 11:24:19,245] [main] TRACE - afterTestClass(): class [class com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:19,245] [main] DEBUG - After test class: context [[TestContext@60cb9c42 testClass = TestActiveMQ, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@577fe2b3 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], dirtiesContext [false].
+[2017-06-11 11:24:19,245] [Thread-0] INFO - Closing org.springframework.context.support.GenericApplicationContext@641ab54a: startup date [Sun Jun 11 11:24:18 CST 2017]; root of context hierarchy
+[2017-06-11 11:24:19,245] [Thread-0] TRACE - Publishing event in org.springframework.context.support.GenericApplicationContext@641ab54a: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@641ab54a: startup date [Sun Jun 11 11:24:18 CST 2017]; root of context hierarchy]
+[2017-06-11 11:24:19,245] [Thread-0] DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2017-06-11 11:24:19,245] [Thread-0] INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2017-06-11 11:24:19,245] [Thread-0] DEBUG - Retrieved dependent beans for bean 'destination': [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:24:19,245] [Thread-0] DEBUG - Invoking destroy() on bean with name 'connectionFactory'
+[2017-06-11 11:24:19,245] [Thread-0] DEBUG - Closing shared JMS Connection: ActiveMQConnection {id=ID:123-PC-58160-1497151459011-1:1,clientId=ID:123-PC-58160-1497151459011-0:1,started=false}
+[2017-06-11 11:24:19,260] [Thread-0] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@730f7532[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] with await termination: 0 millis
+[2017-06-11 11:24:19,260] [Thread-0] DEBUG - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@730f7532[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+[2017-06-11 11:24:19,260] [Thread-0] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@41930c18[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] with await termination: 0 millis
+[2017-06-11 11:24:19,260] [Thread-0] DEBUG - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@41930c18[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+[2017-06-11 11:24:19,260] [Thread-0] DEBUG - Stopping transport tcp://localhost/127.0.0.1:61616@58161
+[2017-06-11 11:24:19,260] [Thread-0] DEBUG - Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@bd65df9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[2017-06-11 11:24:19,260] [Thread-0] TRACE - Execute[ActiveMQ Task] runnable: org.apache.activemq.transport.tcp.TcpTransport$1@26b38c81
+[2017-06-11 11:24:19,260] [Thread-0] TRACE - Created thread[ActiveMQ Task-1]: Thread[ActiveMQ Task-1,5,main]
+[2017-06-11 11:24:19,260] [ActiveMQ Task-1] TRACE - Closing socket Socket[addr=localhost/127.0.0.1,port=61616,localport=58161]
+[2017-06-11 11:24:19,260] [ActiveMQ Task-1] DEBUG - Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=58161]
+[2017-06-11 11:24:19,260] [Thread-0] DEBUG - Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@bd65df9[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2017-06-11 11:24:19,260] [Thread-0] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@bd65df9[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: false.
+[2017-06-11 11:37:20,929] [main] DEBUG - SpringJUnit4ClassRunner constructor called with [class com.zhao.activeMQ.TestActiveMQ].
+[2017-06-11 11:37:20,940] [main] TRACE - Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(initializers=[], classes=[], locations=[classpath:application.xml], loader=interface org.springframework.test.context.ContextLoader, name=, value=[], inheritLocations=true, inheritInitializers=true)] for declaring class [com.lin.baseTest.SpringTestCase].
+[2017-06-11 11:37:20,952] [main] TRACE - Resolved context configuration attributes: [ContextConfigurationAttributes@2f426de2 declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:37:20,955] [main] TRACE - Processing ContextLoader for context configuration attributes [ContextConfigurationAttributes@2f426de2 declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:37:20,955] [main] TRACE - Using default ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,974] [main] TRACE - Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@2f426de2 declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:37:20,975] [main] DEBUG - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2f426de2 declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[2017-06-11 11:37:20,977] [main] TRACE - Processing context initializers for context configuration attributes [ContextConfigurationAttributes@2f426de2 declaringClass = 'com.lin.baseTest.SpringTestCase', locations = '{classpath:application.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[2017-06-11 11:37:20,978] [main] DEBUG - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,980] [main] TRACE - Retrieved @TestExecutionListeners [@org.springframework.test.context.TestExecutionListeners(listeners=[], inheritListeners=true, value=[class org.springframework.test.context.support.DependencyInjectionTestExecutionListener, class org.springframework.test.context.support.DirtiesContextTestExecutionListener])] for declaring class [class org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests].
+[2017-06-11 11:37:20,982] [main] TRACE - Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@226dcb0f
+[2017-06-11 11:37:20,982] [main] TRACE - Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@562e5771
+[2017-06-11 11:37:20,989] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,989] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,991] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,991] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,992] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,992] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,994] [main] TRACE - beforeTestClass(): class [class com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,994] [main] DEBUG - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,995] [main] DEBUG - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:20,998] [main] TRACE - prepareTestInstance(): instance [com.zhao.activeMQ.TestActiveMQ@4a435274]
+[2017-06-11 11:37:20,998] [main] DEBUG - Performing dependency injection for test context [[TestContext@9da63c3 testClass = TestActiveMQ, testInstance = com.zhao.activeMQ.TestActiveMQ@4a435274, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+[2017-06-11 11:37:20,999] [main] DEBUG - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[2017-06-11 11:37:20,999] [main] DEBUG - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2017-06-11 11:37:21,153] [main] DEBUG - Initializing new StandardEnvironment
+[2017-06-11 11:37:21,155] [main] DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+[2017-06-11 11:37:21,157] [main] DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2017-06-11 11:37:21,158] [main] DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2017-06-11 11:37:21,180] [main] INFO - Loading XML bean definitions from class path resource [application.xml]
+[2017-06-11 11:37:21,205] [main] DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2017-06-11 11:37:21,247] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd]
+[2017-06-11 11:37:21,247] [main] DEBUG - Loading schema mappings from [META-INF/spring.schemas]
+[2017-06-11 11:37:21,259] [main] DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.0.xsd=activemq.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.7.0.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.1.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://activemq.apache.org/schema/core=activemq.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.6.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.2.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.0.0.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://camel.apache.org/schema/spring/camel-spring.xsd=camel-spring.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.2.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.1.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://activemq.org/config/1.0=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core.xsd=activemq.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.11.1.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://activemq.org/config/1.0/1.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.1.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.2.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.11.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.0.xsd=activemq.xsd, http://camel.apache.org/schema/osgi/camel-osgi.xsd=camel-osgi.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.1.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.2.0.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd}
+[2017-06-11 11:37:21,261] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2017-06-11 11:37:21,323] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.2.xsd]
+[2017-06-11 11:37:21,324] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2017-06-11 11:37:21,341] [main] TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd]
+[2017-06-11 11:37:21,342] [main] DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2017-06-11 11:37:21,362] [main] DEBUG - Loading bean definitions
+[2017-06-11 11:37:21,381] [main] DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://activemq.apache.org/schema/core=org.apache.xbean.spring.context.v2.XBeanNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2017-06-11 11:37:21,417] [main] DEBUG - Looking for matching resources in directory tree [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ]
+[2017-06-11 11:37:21,417] [main] DEBUG - Searching directory [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ] for files matching pattern [C:/Users/123/Workspaces/MyEclipse 10/activeMQ/target/test-classes/com/zhao/activeMQ/**/*.class]
+[2017-06-11 11:37:21,422] [main] DEBUG - Looking for matching resources in directory tree [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ]
+[2017-06-11 11:37:21,423] [main] DEBUG - Searching directory [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ] for files matching pattern [C:/Users/123/Workspaces/MyEclipse 10/activeMQ/target/classes/com/zhao/activeMQ/**/*.class]
+[2017-06-11 11:37:21,424] [main] DEBUG - Resolved location pattern [classpath*:com/zhao/activeMQ/**/*.class] to resources [file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Customer1.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class], file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]]
+[2017-06-11 11:37:21,424] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class]
+[2017-06-11 11:37:21,446] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\AppTest.class]
+[2017-06-11 11:37:21,446] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\test-classes\com\zhao\activeMQ\TestActiveMQ.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\App.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Customer1.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Customer1.class]
+[2017-06-11 11:37:21,449] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class]
+[2017-06-11 11:37:21,450] [main] TRACE - Ignored because not matching any filter: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor$1.class]
+[2017-06-11 11:37:21,450] [main] TRACE - Scanning file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]
+[2017-06-11 11:37:21,455] [main] DEBUG - Identified candidate component class: file [C:\Users\123\Workspaces\MyEclipse 10\activeMQ\target\classes\com\zhao\activeMQ\Productor.class]
+[2017-06-11 11:37:21,479] [main] DEBUG - Loaded 12 bean definitions from location pattern [classpath:application.xml]
+[2017-06-11 11:37:21,484] [main] INFO - Refreshing org.springframework.context.support.GenericApplicationContext@61a243f1: startup date [Sun Jun 11 11:37:21 CST 2017]; root of context hierarchy
+[2017-06-11 11:37:21,484] [main] DEBUG - Bean factory for org.springframework.context.support.GenericApplicationContext@61a243f1: org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate,consumerMessageListener,jmsContainer]; root of factory hierarchy
+[2017-06-11 11:37:21,519] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:37:21,519] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:37:21,543] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,545] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:37:21,583] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:37:21,583] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:37:21,584] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,584] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:37:21,584] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:37:21,584] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:37:21,585] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,585] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:37:21,585] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:37:21,585] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:37:21,590] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,590] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:37:21,590] [main] DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:37:21,590] [main] DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:37:21,591] [main] DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,591] [main] DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:37:21,594] [main] DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@f475d8e]
+[2017-06-11 11:37:21,596] [main] DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3fc0c26a]
+[2017-06-11 11:37:21,599] [main] INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate,consumerMessageListener,jmsContainer,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2017-06-11 11:37:21,599] [main] DEBUG - Creating shared instance of singleton bean 'productor'
+[2017-06-11 11:37:21,599] [main] DEBUG - Creating instance of bean 'productor'
+[2017-06-11 11:37:21,602] [main] DEBUG - Eagerly caching bean 'productor' to allow for resolving potential circular references
+[2017-06-11 11:37:21,605] [main] TRACE - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+[2017-06-11 11:37:21,606] [main] TRACE - Getting BeanInfo for class [com.zhao.activeMQ.Productor]
+[2017-06-11 11:37:21,610] [main] TRACE - Caching PropertyDescriptors for class [com.zhao.activeMQ.Productor]
+[2017-06-11 11:37:21,610] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,610] [main] TRACE - Found bean property 'jmsTemplate' of type [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:37:21,614] [main] DEBUG - Creating shared instance of singleton bean 'jmsTemplate'
+[2017-06-11 11:37:21,614] [main] DEBUG - Creating instance of bean 'jmsTemplate'
+[2017-06-11 11:37:21,628] [main] DEBUG - Eagerly caching bean 'jmsTemplate' to allow for resolving potential circular references
+[2017-06-11 11:37:21,628] [main] TRACE - Getting BeanInfo for class [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:37:21,641] [main] TRACE - Caching PropertyDescriptors for class [org.springframework.jms.core.JmsTemplate]
+[2017-06-11 11:37:21,641] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,641] [main] TRACE - Found bean property 'connectionFactory' of type [javax.jms.ConnectionFactory]
+[2017-06-11 11:37:21,641] [main] TRACE - Found bean property 'defaultDestination' of type [javax.jms.Destination]
+[2017-06-11 11:37:21,641] [main] TRACE - Found bean property 'defaultDestinationName' of type [java.lang.String]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'deliveryMode' of type [int]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'deliveryPersistent' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'destinationResolver' of type [org.springframework.jms.support.destination.DestinationResolver]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'explicitQosEnabled' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'messageConverter' of type [org.springframework.jms.support.converter.MessageConverter]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'messageIdEnabled' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'messageTimestampEnabled' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'priority' of type [int]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'pubSubDomain' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'pubSubNoLocal' of type [boolean]
+[2017-06-11 11:37:21,642] [main] TRACE - Found bean property 'receiveTimeout' of type [long]
+[2017-06-11 11:37:21,643] [main] TRACE - Found bean property 'sessionAcknowledgeMode' of type [int]
+[2017-06-11 11:37:21,643] [main] TRACE - Found bean property 'sessionAcknowledgeModeName' of type [java.lang.String]
+[2017-06-11 11:37:21,643] [main] TRACE - Found bean property 'sessionTransacted' of type [boolean]
+[2017-06-11 11:37:21,643] [main] TRACE - Found bean property 'timeToLive' of type [long]
+[2017-06-11 11:37:21,645] [main] TRACE - Not autowiring property 'defaultDestination' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:37:21,645] [main] TRACE - Not autowiring property 'destinationResolver' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:37:21,645] [main] TRACE - Not autowiring property 'messageConverter' of bean 'jmsTemplate' by name: no matching bean found
+[2017-06-11 11:37:21,672] [main] DEBUG - Creating shared instance of singleton bean 'connectionFactory'
+[2017-06-11 11:37:21,672] [main] DEBUG - Creating instance of bean 'connectionFactory'
+[2017-06-11 11:37:21,675] [main] DEBUG - Eagerly caching bean 'connectionFactory' to allow for resolving potential circular references
+[2017-06-11 11:37:21,675] [main] TRACE - Getting BeanInfo for class [org.springframework.jms.connection.SingleConnectionFactory]
+[2017-06-11 11:37:21,681] [main] TRACE - Caching PropertyDescriptors for class [org.springframework.jms.connection.SingleConnectionFactory]
+[2017-06-11 11:37:21,681] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,681] [main] TRACE - Found bean property 'clientId' of type [java.lang.String]
+[2017-06-11 11:37:21,681] [main] TRACE - Found bean property 'exceptionListener' of type [javax.jms.ExceptionListener]
+[2017-06-11 11:37:21,682] [main] TRACE - Found bean property 'reconnectOnException' of type [boolean]
+[2017-06-11 11:37:21,682] [main] TRACE - Found bean property 'targetConnectionFactory' of type [javax.jms.ConnectionFactory]
+[2017-06-11 11:37:21,682] [main] TRACE - Not autowiring property 'exceptionListener' of bean 'connectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,682] [main] DEBUG - Creating shared instance of singleton bean 'targetConnectionFactory'
+[2017-06-11 11:37:21,682] [main] DEBUG - Creating instance of bean 'targetConnectionFactory'
+[2017-06-11 11:37:21,721] [main] DEBUG - Eagerly caching bean 'targetConnectionFactory' to allow for resolving potential circular references
+[2017-06-11 11:37:21,721] [main] TRACE - Getting BeanInfo for class [org.apache.activemq.ActiveMQConnectionFactory]
+[2017-06-11 11:37:21,730] [main] TRACE - Caching PropertyDescriptors for class [org.apache.activemq.ActiveMQConnectionFactory]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'alwaysSessionAsync' of type [boolean]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'alwaysSyncSend' of type [boolean]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'auditDepth' of type [int]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'auditMaximumProducerNumber' of type [int]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'blobTransferPolicy' of type [org.apache.activemq.blob.BlobTransferPolicy]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'brokerURL' of type [java.lang.String]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'checkForDuplicates' of type [boolean]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'clientID' of type [java.lang.String]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'clientIDPrefix' of type [java.lang.String]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'clientInternalExceptionListener' of type [org.apache.activemq.ClientInternalExceptionListener]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'closeTimeout' of type [int]
+[2017-06-11 11:37:21,730] [main] TRACE - Found bean property 'connectionIDPrefix' of type [java.lang.String]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'consumerExpiryCheckEnabled' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'consumerFailoverRedeliveryWaitPeriod' of type [long]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'copyMessageOnSend' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'disableTimeStampsByDefault' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'dispatchAsync' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'exceptionListener' of type [javax.jms.ExceptionListener]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'exclusiveConsumer' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'maxThreadPoolSize' of type [int]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'messagePrioritySupported' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'nestedMapAndListEnabled' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'nonBlockingRedelivery' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'objectMessageSerializationDefered' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'optimizeAcknowledge' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'optimizeAcknowledgeTimeOut' of type [long]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'optimizedAckScheduledAckInterval' of type [long]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'optimizedMessageDispatch' of type [boolean]
+[2017-06-11 11:37:21,731] [main] TRACE - Found bean property 'password' of type [java.lang.String]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'prefetchPolicy' of type [org.apache.activemq.ActiveMQPrefetchPolicy]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'producerWindowSize' of type [int]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'properties' of type [java.util.Properties]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'redeliveryPolicy' of type [org.apache.activemq.RedeliveryPolicy]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'redeliveryPolicyMap' of type [org.apache.activemq.broker.region.policy.RedeliveryPolicyMap]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'reference' of type [javax.naming.Reference]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'rejectedTaskHandler' of type [java.util.concurrent.RejectedExecutionHandler]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'rmIdFromConnectionId' of type [boolean]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'sendAcksAsync' of type [boolean]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'sendTimeout' of type [int]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'sessionTaskRunner' of type [org.apache.activemq.thread.TaskRunnerFactory]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'stats' of type [org.apache.activemq.management.StatsImpl]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'statsEnabled' of type [boolean]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'transactedIndividualAck' of type [boolean]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'transformer' of type [org.apache.activemq.MessageTransformer]
+[2017-06-11 11:37:21,732] [main] TRACE - Found bean property 'transportListener' of type [org.apache.activemq.transport.TransportListener]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'useAsyncSend' of type [boolean]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'useCompression' of type [boolean]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'useDedicatedTaskRunner' of type [boolean]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'useRetroactiveConsumer' of type [boolean]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'userName' of type [java.lang.String]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'warnAboutUnstartedConnectionTimeout' of type [long]
+[2017-06-11 11:37:21,733] [main] TRACE - Found bean property 'watchTopicAdvisories' of type [boolean]
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'blobTransferPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'clientInternalExceptionListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'exceptionListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'prefetchPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'properties' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'redeliveryPolicy' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'redeliveryPolicyMap' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'rejectedTaskHandler' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'sessionTaskRunner' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,734] [main] TRACE - Not autowiring property 'transformer' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,735] [main] TRACE - Not autowiring property 'transportListener' of bean 'targetConnectionFactory' by name: no matching bean found
+[2017-06-11 11:37:21,748] [main] DEBUG - Finished creating instance of bean 'targetConnectionFactory'
+[2017-06-11 11:37:21,748] [main] DEBUG - Invoking afterPropertiesSet() on bean with name 'connectionFactory'
+[2017-06-11 11:37:21,748] [main] DEBUG - Finished creating instance of bean 'connectionFactory'
+[2017-06-11 11:37:21,748] [main] DEBUG - Invoking afterPropertiesSet() on bean with name 'jmsTemplate'
+[2017-06-11 11:37:21,749] [main] DEBUG - Finished creating instance of bean 'jmsTemplate'
+[2017-06-11 11:37:21,749] [main] DEBUG - Added autowiring by name from bean name 'productor' via property 'jmsTemplate' to bean named 'jmsTemplate'
+[2017-06-11 11:37:21,749] [main] DEBUG - Finished creating instance of bean 'productor'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'targetConnectionFactory'
+[2017-06-11 11:37:21,749] [main] DEBUG - Returning cached instance of singleton bean 'connectionFactory'
+[2017-06-11 11:37:21,749] [main] DEBUG - Creating shared instance of singleton bean 'destination'
+[2017-06-11 11:37:21,749] [main] DEBUG - Creating instance of bean 'destination'
+[2017-06-11 11:37:21,761] [main] DEBUG - Eagerly caching bean 'destination' to allow for resolving potential circular references
+[2017-06-11 11:37:21,761] [main] TRACE - Getting BeanInfo for class [org.apache.activemq.command.ActiveMQQueue]
+[2017-06-11 11:37:21,773] [main] TRACE - Caching PropertyDescriptors for class [org.apache.activemq.command.ActiveMQQueue]
+[2017-06-11 11:37:21,773] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,773] [main] TRACE - Found bean property 'composite' of type [boolean]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'compositeDestinations' of type [[Lorg.apache.activemq.command.ActiveMQDestination;]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'dataStructureType' of type [byte]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'destinationPaths' of type [[Ljava.lang.String;]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'destinationType' of type [byte]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'destinationTypeAsString' of type [java.lang.String]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'marshallAware' of type [boolean]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'options' of type [java.util.Map]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'pattern' of type [boolean]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'physicalName' of type [java.lang.String]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'properties' of type [java.util.Properties]
+[2017-06-11 11:37:21,774] [main] TRACE - Found bean property 'qualifiedName' of type [java.lang.String]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'queue' of type [boolean]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'queueName' of type [java.lang.String]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'reference' of type [javax.naming.Reference]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'temporary' of type [boolean]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'topic' of type [boolean]
+[2017-06-11 11:37:21,775] [main] TRACE - Found bean property 'unresolvableDestinationTransformer' of type [org.apache.activemq.command.UnresolvedDestinationTransformer]
+[2017-06-11 11:37:21,776] [main] TRACE - Not autowiring property 'compositeDestinations' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:37:21,776] [main] TRACE - Not autowiring property 'properties' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:37:21,776] [main] TRACE - Not autowiring property 'unresolvableDestinationTransformer' of bean 'destination' by name: no matching bean found
+[2017-06-11 11:37:21,776] [main] DEBUG - Finished creating instance of bean 'destination'
+[2017-06-11 11:37:21,776] [main] DEBUG - Creating shared instance of singleton bean 'destination2'
+[2017-06-11 11:37:21,776] [main] DEBUG - Creating instance of bean 'destination2'
+[2017-06-11 11:37:21,776] [main] DEBUG - Eagerly caching bean 'destination2' to allow for resolving potential circular references
+[2017-06-11 11:37:21,777] [main] TRACE - Not autowiring property 'compositeDestinations' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:37:21,777] [main] TRACE - Not autowiring property 'properties' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:37:21,777] [main] TRACE - Not autowiring property 'unresolvableDestinationTransformer' of bean 'destination2' by name: no matching bean found
+[2017-06-11 11:37:21,777] [main] DEBUG - Finished creating instance of bean 'destination2'
+[2017-06-11 11:37:21,777] [main] DEBUG - Returning cached instance of singleton bean 'jmsTemplate'
+[2017-06-11 11:37:21,777] [main] DEBUG - Creating shared instance of singleton bean 'consumerMessageListener'
+[2017-06-11 11:37:21,777] [main] DEBUG - Creating instance of bean 'consumerMessageListener'
+[2017-06-11 11:37:21,777] [main] DEBUG - Eagerly caching bean 'consumerMessageListener' to allow for resolving potential circular references
+[2017-06-11 11:37:21,777] [main] TRACE - Getting BeanInfo for class [com.zhao.activeMQ.Customer1]
+[2017-06-11 11:37:21,780] [main] TRACE - Caching PropertyDescriptors for class [com.zhao.activeMQ.Customer1]
+[2017-06-11 11:37:21,780] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,781] [main] DEBUG - Finished creating instance of bean 'consumerMessageListener'
+[2017-06-11 11:37:21,781] [main] DEBUG - Creating shared instance of singleton bean 'jmsContainer'
+[2017-06-11 11:37:21,781] [main] DEBUG - Creating instance of bean 'jmsContainer'
+[2017-06-11 11:37:21,799] [main] DEBUG - Eagerly caching bean 'jmsContainer' to allow for resolving potential circular references
+[2017-06-11 11:37:21,799] [main] TRACE - Getting BeanInfo for class [org.springframework.jms.listener.DefaultMessageListenerContainer]
+[2017-06-11 11:37:21,818] [main] TRACE - Caching PropertyDescriptors for class [org.springframework.jms.listener.DefaultMessageListenerContainer]
+[2017-06-11 11:37:21,818] [main] TRACE - Found bean property 'acceptMessagesWhileStopping' of type [boolean]
+[2017-06-11 11:37:21,818] [main] TRACE - Found bean property 'active' of type [boolean]
+[2017-06-11 11:37:21,818] [main] TRACE - Found bean property 'activeConsumerCount' of type [int]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'autoStartup' of type [boolean]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'beanName' of type [java.lang.String]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'cacheLevel' of type [int]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'cacheLevelName' of type [java.lang.String]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'clientId' of type [java.lang.String]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'concurrency' of type [java.lang.String]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'concurrentConsumers' of type [int]
+[2017-06-11 11:37:21,819] [main] TRACE - Found bean property 'connectionFactory' of type [javax.jms.ConnectionFactory]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'destination' of type [javax.jms.Destination]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'destinationName' of type [java.lang.String]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'destinationResolver' of type [org.springframework.jms.support.destination.DestinationResolver]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'durableSubscriptionName' of type [java.lang.String]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'errorHandler' of type [org.springframework.util.ErrorHandler]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'exceptionListener' of type [javax.jms.ExceptionListener]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'exposeListenerSession' of type [boolean]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'idleConsumerLimit' of type [int]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'idleTaskExecutionLimit' of type [int]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'maxConcurrentConsumers' of type [int]
+[2017-06-11 11:37:21,820] [main] TRACE - Found bean property 'maxMessagesPerTask' of type [int]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'messageListener' of type [java.lang.Object]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'messageSelector' of type [java.lang.String]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'pausedTaskCount' of type [int]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'phase' of type [int]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'pubSubDomain' of type [boolean]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'pubSubNoLocal' of type [boolean]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'receiveTimeout' of type [long]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'recovering' of type [boolean]
+[2017-06-11 11:37:21,821] [main] TRACE - Found bean property 'recoveryInterval' of type [long]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'registeredWithDestination' of type [boolean]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'running' of type [boolean]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'scheduledConsumerCount' of type [int]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'sessionAcknowledgeMode' of type [int]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'sessionAcknowledgeModeName' of type [java.lang.String]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'sessionTransacted' of type [boolean]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'subscriptionDurable' of type [boolean]
+[2017-06-11 11:37:21,822] [main] TRACE - Found bean property 'taskExecutor' of type [java.util.concurrent.Executor]
+[2017-06-11 11:37:21,823] [main] TRACE - Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+[2017-06-11 11:37:21,823] [main] TRACE - Found bean property 'transactionName' of type [java.lang.String]
+[2017-06-11 11:37:21,823] [main] TRACE - Found bean property 'transactionTimeout' of type [int]
+[2017-06-11 11:37:21,825] [main] TRACE - Not autowiring property 'destinationResolver' of bean 'jmsContainer' by name: no matching bean found
+[2017-06-11 11:37:21,825] [main] TRACE - Not autowiring property 'errorHandler' of bean 'jmsContainer' by name: no matching bean found
+[2017-06-11 11:37:21,825] [main] TRACE - Not autowiring property 'exceptionListener' of bean 'jmsContainer' by name: no matching bean found
+[2017-06-11 11:37:21,825] [main] TRACE - Not autowiring property 'taskExecutor' of bean 'jmsContainer' by name: no matching bean found
+[2017-06-11 11:37:21,825] [main] TRACE - Not autowiring property 'transactionManager' of bean 'jmsContainer' by name: no matching bean found
+[2017-06-11 11:37:21,827] [main] DEBUG - Returning cached instance of singleton bean 'connectionFactory'
+[2017-06-11 11:37:21,828] [main] DEBUG - Returning cached instance of singleton bean 'destination'
+[2017-06-11 11:37:21,828] [main] DEBUG - Returning cached instance of singleton bean 'consumerMessageListener'
+[2017-06-11 11:37:21,829] [main] DEBUG - Invoking afterPropertiesSet() on bean with name 'jmsContainer'
+[2017-06-11 11:37:21,835] [main] DEBUG - Finished creating instance of bean 'jmsContainer'
+[2017-06-11 11:37:21,835] [main] DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2017-06-11 11:37:21,837] [main] DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@20a3d02a]
+[2017-06-11 11:37:21,838] [main] DEBUG - Returning cached instance of singleton bean 'jmsContainer'
+[2017-06-11 11:37:21,838] [main] DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2017-06-11 11:37:21,841] [main] INFO - Starting beans in phase 2147483647
+[2017-06-11 11:37:21,841] [main] DEBUG - Starting bean 'jmsContainer' of type [class org.springframework.jms.listener.DefaultMessageListenerContainer]
+[2017-06-11 11:37:21,911] [main] TRACE - Using port 0
+[2017-06-11 11:37:22,029] [main] DEBUG - Sending: WireFormatInfo { version=10, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, Host=localhost, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:37:22,032] [main] INFO - Established shared JMS Connection: ActiveMQConnection {id=ID:123-PC-58717-1497152241916-1:1,clientId=null,started=false}
+[2017-06-11 11:37:22,037] [main] DEBUG - Established shared JMS Connection
+[2017-06-11 11:37:22,038] [main] DEBUG - Resumed paused task: org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker@39fd6464
+[2017-06-11 11:37:22,040] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] TRACE - TCP consumer thread for tcp://localhost/127.0.0.1:61616@58718 starting
+[2017-06-11 11:37:22,042] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] DEBUG - Using min of local: WireFormatInfo { version=10, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, Host=localhost, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=3, properties={CacheSize=1024, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, CacheEnabled=true, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:37:22,044] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] DEBUG - Received WireFormat: WireFormatInfo { version=3, properties={CacheSize=1024, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, CacheEnabled=true, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+[2017-06-11 11:37:22,044] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] DEBUG - tcp://localhost/127.0.0.1:61616@58718 before negotiation: OpenWireFormat{version=10, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+[2017-06-11 11:37:22,096] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] DEBUG - tcp://localhost/127.0.0.1:61616@58718 after negotiation: OpenWireFormat{version=3, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+[2017-06-11 11:37:22,104] [main] DEBUG - Successfully started bean 'jmsContainer'
+[2017-06-11 11:37:22,104] [main] TRACE - Publishing event in org.springframework.context.support.GenericApplicationContext@61a243f1: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@61a243f1: startup date [Sun Jun 11 11:37:21 CST 2017]; root of context hierarchy]
+[2017-06-11 11:37:22,107] [main] TRACE - getProperty("spring.liveBeansView.mbeanDomain", String)
+[2017-06-11 11:37:22,107] [main] DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2017-06-11 11:37:22,108] [main] DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2017-06-11 11:37:22,108] [main] TRACE - PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+[2017-06-11 11:37:22,108] [main] TRACE - PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+[2017-06-11 11:37:22,109] [main] TRACE - PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+[2017-06-11 11:37:22,109] [main] TRACE - PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+[2017-06-11 11:37:22,109] [main] DEBUG - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2017-06-11 11:37:22,110] [main] DEBUG - Storing ApplicationContext in cache under key [[MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[2017-06-11 11:37:22,111] [main] TRACE - Getting BeanInfo for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:22,119] [main] TRACE - Caching PropertyDescriptors for class [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:22,119] [main] TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+[2017-06-11 11:37:22,119] [main] TRACE - Found bean property 'class' of type [java.lang.Class]
+[2017-06-11 11:37:22,123] [main] DEBUG - Processing injected method of bean 'com.zhao.activeMQ.TestActiveMQ': AutowiredFieldElement for private javax.jms.Destination com.zhao.activeMQ.TestActiveMQ.destination
+[2017-06-11 11:37:22,125] [main] DEBUG - Returning cached instance of singleton bean 'destination'
+[2017-06-11 11:37:22,125] [main] DEBUG - Returning cached instance of singleton bean 'destination2'
+[2017-06-11 11:37:22,126] [main] DEBUG - Autowiring by type from bean name 'com.zhao.activeMQ.TestActiveMQ' to bean named 'destination'
+[2017-06-11 11:37:22,126] [main] DEBUG - Processing injected method of bean 'com.zhao.activeMQ.TestActiveMQ': AutowiredFieldElement for private com.zhao.activeMQ.Productor com.zhao.activeMQ.TestActiveMQ.productor
+[2017-06-11 11:37:22,127] [main] DEBUG - Returning cached instance of singleton bean 'productor'
+[2017-06-11 11:37:22,127] [main] DEBUG - Autowiring by type from bean name 'com.zhao.activeMQ.TestActiveMQ' to bean named 'productor'
+[2017-06-11 11:37:22,131] [main] TRACE - beforeTestMethod(): instance [com.zhao.activeMQ.TestActiveMQ@4a435274], method [public void com.zhao.activeMQ.TestActiveMQ.testConsumer()]
+[2017-06-11 11:37:22,149] [main] DEBUG - Executing callback on JMS Session: ActiveMQSession {id=ID:123-PC-58717-1497152241916-1:1:2,started=true}
+[2017-06-11 11:37:22,215] [main] DEBUG - Sending created message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}
+[2017-06-11 11:37:22,215] [main] TRACE - ID:123-PC-58717-1497152241916-1:1:2 sending message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = ID:123-PC-58717-1497152241916-1:1:2:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:123-PC-58717-1497152241916-1:1:2:1, destination = queue://gzframe.demo, transactionId = null, expiration = 0, timestamp = 1497152242215, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}
+[2017-06-11 11:37:22,230] [jmsContainer-1] DEBUG - Initialized TaskRunnerFactory[ActiveMQ Session Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@2037bd0e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[2017-06-11 11:37:22,232] [jmsContainer-1] TRACE - Created thread[ActiveMQ Session Task-1]: Thread[ActiveMQ Session Task-1,7,main]
+[2017-06-11 11:37:22,234] [ActiveMQ Session Task-1] TRACE - Running task iteration 0 - org.apache.activemq.ActiveMQSessionExecutor@7dbff9ea
+[2017-06-11 11:37:22,234] [ActiveMQ Session Task-1] TRACE - Running task iteration 1 - org.apache.activemq.ActiveMQSessionExecutor@7dbff9ea
+[2017-06-11 11:37:22,235] [ActiveMQ Session Task-1] TRACE - Running task iteration 2 - org.apache.activemq.ActiveMQSessionExecutor@7dbff9ea
+[2017-06-11 11:37:22,235] [ActiveMQ Session Task-1] TRACE - Run task done: org.apache.activemq.ActiveMQSessionExecutor@7dbff9ea
+[2017-06-11 11:37:22,237] [jmsContainer-1] TRACE - ID:123-PC-58717-1497152241916-1:1:1:1 received message: MessageDispatch {commandId = 0, responseRequired = false, consumerId = ID:123-PC-58717-1497152241916-1:1:1:1, destination = queue://gzframe.demo, message = ActiveMQTextMessage {commandId = 5, responseRequired = true, messageId = ID:123-PC-57838-1497097438115-1:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:123-PC-57838-1497097438115-1:1:1:1, destination = queue://gzframe.demo, transactionId = null, expiration = 0, timestamp = 1497097438331, arrival = 0, brokerInTime = 1497097438332, brokerOutTime = 1497152242230, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = org.apache.activemq.util.ByteSequence@5a62867c, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}, redeliveryCounter = 0}
+[2017-06-11 11:37:22,239] [jmsContainer-1] DEBUG - Received message of type [class org.apache.activemq.command.ActiveMQTextMessage] from consumer [ActiveMQMessageConsumer { value=ID:123-PC-58717-1497152241916-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:123-PC-58717-1497152241916-1:1:1,started=true}]
+[2017-06-11 11:37:22,241] [main] TRACE - afterTestMethod(): instance [com.zhao.activeMQ.TestActiveMQ@4a435274], method [public void com.zhao.activeMQ.TestActiveMQ.testConsumer()], exception [null]
+[2017-06-11 11:37:22,242] [jmsContainer-1] TRACE - Bound value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@2de463d0] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] to thread [jmsContainer-1]
+[2017-06-11 11:37:22,242] [jmsContainer-1] TRACE - Removed value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@2de463d0] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] from thread [jmsContainer-1]
+[2017-06-11 11:37:22,242] [main] DEBUG - After test method: context [[TestContext@9da63c3 testClass = TestActiveMQ, testInstance = com.zhao.activeMQ.TestActiveMQ@4a435274, testMethod = testConsumer@TestActiveMQ, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], class dirties context [false], class mode [null], method dirties context [false].
+[2017-06-11 11:37:22,244] [jmsContainer-1] TRACE - ID:123-PC-58717-1497152241916-1:1:1:1 received message: MessageDispatch {commandId = 0, responseRequired = false, consumerId = ID:123-PC-58717-1497152241916-1:1:1:1, destination = queue://gzframe.demo, message = ActiveMQTextMessage {commandId = 5, responseRequired = true, messageId = ID:123-PC-58160-1497151459011-1:1:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:123-PC-58160-1497151459011-1:1:1:1, destination = queue://gzframe.demo, transactionId = null, expiration = 0, timestamp = 1497151459245, arrival = 0, brokerInTime = 1497151459245, brokerOutTime = 1497152242231, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = org.apache.activemq.util.ByteSequence@7859857a, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}, redeliveryCounter = 0}
+[2017-06-11 11:37:22,244] [jmsContainer-1] DEBUG - Received message of type [class org.apache.activemq.command.ActiveMQTextMessage] from consumer [ActiveMQMessageConsumer { value=ID:123-PC-58717-1497152241916-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:123-PC-58717-1497152241916-1:1:1,started=true}]
+[2017-06-11 11:37:22,244] [jmsContainer-1] TRACE - Bound value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@50584bac] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] to thread [jmsContainer-1]
+[2017-06-11 11:37:22,244] [main] TRACE - afterTestClass(): class [class com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:22,244] [jmsContainer-1] TRACE - Removed value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@50584bac] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] from thread [jmsContainer-1]
+[2017-06-11 11:37:22,245] [main] DEBUG - After test class: context [[TestContext@9da63c3 testClass = TestActiveMQ, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@60cb9c42 testClass = TestActiveMQ, locations = '{classpath:application.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], dirtiesContext [false].
+[2017-06-11 11:37:22,245] [jmsContainer-1] TRACE - ID:123-PC-58717-1497152241916-1:1:1:1 received message: MessageDispatch {commandId = 0, responseRequired = false, consumerId = ID:123-PC-58717-1497152241916-1:1:1:1, destination = queue://gzframe.demo, message = ActiveMQTextMessage {commandId = 7, responseRequired = true, messageId = ID:123-PC-58717-1497152241916-1:1:2:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:123-PC-58717-1497152241916-1:1:2:1, destination = queue://gzframe.demo, transactionId = null, expiration = 0, timestamp = 1497152242215, arrival = 0, brokerInTime = 1497152242227, brokerOutTime = 1497152242231, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = org.apache.activemq.util.ByteSequence@54d03269, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = dsadasdadasdds}, redeliveryCounter = 0}
+[2017-06-11 11:37:22,246] [jmsContainer-1] DEBUG - Received message of type [class org.apache.activemq.command.ActiveMQTextMessage] from consumer [ActiveMQMessageConsumer { value=ID:123-PC-58717-1497152241916-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:123-PC-58717-1497152241916-1:1:1,started=true}]
+[2017-06-11 11:37:22,246] [jmsContainer-1] TRACE - Bound value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@309db6ff] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] to thread [jmsContainer-1]
+[2017-06-11 11:37:22,247] [jmsContainer-1] TRACE - Removed value [org.springframework.jms.listener.LocallyExposedJmsResourceHolder@309db6ff] for key [org.springframework.jms.connection.SingleConnectionFactory@3b73c65e] from thread [jmsContainer-1]
+[2017-06-11 11:37:22,251] [Thread-2] INFO - Closing org.springframework.context.support.GenericApplicationContext@61a243f1: startup date [Sun Jun 11 11:37:21 CST 2017]; root of context hierarchy
+[2017-06-11 11:37:22,251] [Thread-2] TRACE - Publishing event in org.springframework.context.support.GenericApplicationContext@61a243f1: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@61a243f1: startup date [Sun Jun 11 11:37:21 CST 2017]; root of context hierarchy]
+[2017-06-11 11:37:22,252] [Thread-2] DEBUG - Returning cached instance of singleton bean 'jmsContainer'
+[2017-06-11 11:37:22,252] [Thread-2] DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2017-06-11 11:37:22,252] [Thread-2] INFO - Stopping beans in phase 2147483647
+[2017-06-11 11:37:22,252] [Thread-2] DEBUG - Asking bean 'jmsContainer' of type [class org.springframework.jms.listener.DefaultMessageListenerContainer] to stop
+[2017-06-11 11:37:23,247] [jmsContainer-1] TRACE - Consumer [ActiveMQMessageConsumer { value=ID:123-PC-58717-1497152241916-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:123-PC-58717-1497152241916-1:1:1,started=true}] did not receive a message
+[2017-06-11 11:37:23,249] [jmsContainer-1] DEBUG - Bean 'jmsContainer' completed its stop procedure
+[2017-06-11 11:37:23,250] [Thread-2] INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e3f6f3: defining beans [productor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,targetConnectionFactory,connectionFactory,destination,destination2,jmsTemplate,consumerMessageListener,jmsContainer,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2017-06-11 11:37:23,250] [Thread-2] DEBUG - Invoking destroy() on bean with name 'jmsContainer'
+[2017-06-11 11:37:23,250] [Thread-2] DEBUG - Shutting down JMS listener container
+[2017-06-11 11:37:23,251] [Thread-2] DEBUG - Waiting for shutdown of message listener invokers
+[2017-06-11 11:37:23,251] [jmsContainer-1] DEBUG - Lowered scheduled invoker count: 0
+[2017-06-11 11:37:23,252] [jmsContainer-1] DEBUG - remove: ID:123-PC-58717-1497152241916-1:1:1:1, lastDeliveredSequenceId:30
+[2017-06-11 11:37:23,252] [jmsContainer-1] TRACE - Shutdown timeout: 0 task: org.apache.activemq.ActiveMQSessionExecutor@7dbff9ea
+[2017-06-11 11:37:23,254] [Thread-2] DEBUG - Retrieved dependent beans for bean 'destination': [com.zhao.activeMQ.TestActiveMQ]
+[2017-06-11 11:37:23,254] [Thread-2] DEBUG - Invoking destroy() on bean with name 'connectionFactory'
+[2017-06-11 11:37:23,254] [Thread-2] DEBUG - Closing shared JMS Connection: ActiveMQConnection {id=ID:123-PC-58717-1497152241916-1:1,clientId=ID:123-PC-58717-1497152241916-0:1,started=true}
+[2017-06-11 11:37:23,259] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@18fd5fc0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] with await termination: 0 millis
+[2017-06-11 11:37:23,259] [Thread-2] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@2037bd0e[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1] with await termination: 0 millis
+[2017-06-11 11:37:23,261] [Thread-2] DEBUG - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@2037bd0e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1] is shutdown: true and terminated: false took: 0.000 seconds.
+[2017-06-11 11:37:23,261] [ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@58718] DEBUG - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@18fd5fc0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+[2017-06-11 11:37:23,262] [Thread-2] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@b1e27bb[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] with await termination: 0 millis
+[2017-06-11 11:37:23,263] [Thread-2] DEBUG - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@b1e27bb[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.001 seconds.
+[2017-06-11 11:37:23,264] [Thread-2] DEBUG - Stopping transport tcp://localhost/127.0.0.1:61616@58718
+[2017-06-11 11:37:23,265] [Thread-2] DEBUG - Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@5bcc83fe[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[2017-06-11 11:37:23,266] [Thread-2] TRACE - Execute[ActiveMQ Task] runnable: org.apache.activemq.transport.tcp.TcpTransport$1@4fedc7c7
+[2017-06-11 11:37:23,266] [Thread-2] TRACE - Created thread[ActiveMQ Task-1]: Thread[ActiveMQ Task-1,5,main]
+[2017-06-11 11:37:23,266] [ActiveMQ Task-1] TRACE - Closing socket Socket[addr=localhost/127.0.0.1,port=61616,localport=58718]
+[2017-06-11 11:37:23,266] [ActiveMQ Task-1] DEBUG - Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=58718]
+[2017-06-11 11:37:23,267] [Thread-2] DEBUG - Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@5bcc83fe[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1]
+[2017-06-11 11:37:23,267] [Thread-2] TRACE - Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@5bcc83fe[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1] is shutdown: true and terminated: false.
